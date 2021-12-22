@@ -22,9 +22,18 @@ Developed by:
 RegisterNumber:  
 */
 ```
+~~~
+def newton_method(number,number_iter=100):
+    b=float(number)
+    for i in range(number_iter):
+        number=0.5*(number+(b/number))
+    return number
+number=int(input())
+print('Square root of the number:',newton_method(number))
+~~~
 
 ## Output:
-![gcd of two number](gcd.png)
+![gcd of two number](https://github.com/RanjithD18/Square-root-of-a-number/blob/main/Screenshot%20(32).png?raw=true)
 
 
 ## Result:
